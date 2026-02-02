@@ -36,7 +36,7 @@ La carpeta `METE` contiene los archivos oficiales del curso, y se irá actualiza
 
 Si quieres practicar con los ejercicios propuestos, es conveniente guardar los archivos en una carpeta diferente, por ejemplo, `METE_Estudiante`. Esta carpeta puede guardarse dentro de la carpeta `MATLAB`, y debe añadirse también al directorio de MATLAB de forma similar al paso 3 de la instalación.
 
-Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, `implementar una función llamada LUSolve`, se recomienda llamar a la función de una forma diferente, por ejemplo, `LUSolve_Estudiante`, para evitar que MATLAB la confunda con la función oficial. 
+Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, "implementar una función llamada `LUSolve`", se recomienda llamar a la función de una forma diferente, por ejemplo, `LUSolve_Estudiante`, para evitar que MATLAB la confunda con la función oficial. 
 
 ### Actualizaciones 
 
