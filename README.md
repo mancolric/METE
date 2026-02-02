@@ -38,6 +38,8 @@ Si quieres practicar con los ejercicios propuestos y compararlos con la solució
 
 Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, "implementar una función llamada `LUSolve`", se recomienda llamar a la función de una forma diferente, por ejemplo, `LUSolve_Estudiante`, para evitar que MATLAB la confunda con la función oficial que implementa la solución al ejercicio. 
 
+Evitar espacios y caracteres especiales en los nombres de las carpetas y archivos.
+
 ### Actualizaciones 
 
 Será necesario actualizar el material durante el curso. Para ello, hay que ejecutar nuevamente el paso 2 (opción 1) anterior, sobreescribiendo los archivos ya existentes con sus nuevas versiones.
