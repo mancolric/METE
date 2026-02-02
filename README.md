@@ -56,6 +56,7 @@ git pull
 ```
 para Linux y MacOS. Se recomienda esta segunda opción.
 
+También es posible descargar los archivos de forma individual haciendo click en el icono situado a la derecha de `Raw`.
 
 ### Citar como 
 
