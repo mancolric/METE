@@ -1,0 +1,65 @@
+## Matemáticas de la Especialidad Técnicas Energéticas. Curso 2025-206
+
+Apuntes, códigos y otro material para el curso.
+
+### Autor y contacto
+
+Manuel Colera Rico (Universidad Politécnica de Madrid)\
+
+El material se ha desarrollado con la intención de facilitar el estudio de la asignatura. Por favor, si encuentras cualquier errata o necesitas clarificación sobre alguno de los contenidos, no dudes en escribirme a la dirección m.colera@upm.es.
+.
+
+### Citar como 
+
+M. Colera, 2026: Apuntes de Matemáticas de la Especialidad Técnicas Energéticas [https://github.com/mancolric/METE](https://github.com/mancolric/METE).
+
+### Instalación
+
+1) **Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y el idioma).
+
+2A) **Descargar el material del curso**. Para ello, puede descargarse una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
+
+2B) Alternativamente, se puede descargar el material del curso desde la línea de comandos, lo cual resultará más cómodo posteriormente. Para ello, abrir primero la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; por ejemplo
+```
+
+cd C:\Users\<TuUsuario>\Documents\MATLAB\
+git clone https://github.com/mancolric/METE.git
+```
+para Windows, o 
+```
+
+cd /home/<TuUsuario>/Documentos/MATLAB/
+git clone https://github.com/mancolric/METE.git
+```
+para Linux y MacOS, donde `<TuUsuario>` debe ser reemplazado por el nombre de usuario. 
+
+Después del paso 2, debe haber una carpeta `METE` dentro de la carpeta `MATLAB`, que a su vez está en documentos 
+
+3) **Actualizar el directorio de MATLAB**. Abrir `MATLAB->Home->Preferences->SetPath`, y añadir la carpeta `METE` y sus subcarpetas al directorio de MATLAB. De esta forma, MATLAB podrá encontrar los archivos que hay dentro de `METE`.
+
+### Recomendaciones importantes
+
+La carpeta `METE` contiene los archivos oficiales del curso, y se irá actualizando progresivamente, según se avance durante el curso.
+
+Si quieres practicar con los ejercicios propuestos, es conveniente guardar los archivos en una carpeta diferente, por ejemplo, `METE_Estudiante`. Esta carpeta puede guardarse dentro de la carpeta `MATLAB`, y debe añadirse también al directorio de MATLAB de forma similar al paso 3 de la instalación.
+
+Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, `implementar una función llamada LUSolve`, se recomienda llamar a la función de una forma diferente, por ejemplo, `LUSolve_Estudiante`, para evitar que MATLAB la confunda con la función oficial. 
+
+### Actualizaciones 
+
+Será necesario actualizar el material durante el curso. Para ello, hay que ejecutar nuevamente el paso 2A anterior, sobreescribiendo los archivos ya existentes con sus nuevas versiones.
+
+Alternativamente, desde la terminal, simplemente hay que cambiar el directorio a la carpeta `METE` y ejecutar `git pull`, es decir,
+```
+
+cd C:\Users\<TuUsuario>\Documents\MATLAB\METE\
+git pull
+```
+para Windows, o 
+```
+
+cd /home/<TuUsuario>/Documentos/MATLAB/METE/
+git pull
+```
+para Linux y MacOS. Notemos que, de esta forma, no es necesario abrir el navegador de internet.
+
