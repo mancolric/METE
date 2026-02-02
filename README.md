@@ -17,8 +17,8 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
     * Opción 1 (más sencilla): Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
 
     * Opción 2 (más cómoda cuando avance el curso): Abrir la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; es decir,
-        
-        cd C:\Users\<TuUsuario>\Documents\MATLAB\
+        C:\Users\<TuUsuario>\Documents\MATLAB\
+bla bla   
         git clone https://github.com/mancolric/METE.git
 para Windows, o 
 ```
