@@ -10,16 +10,15 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
 
 ### Instalación
 
-1. **Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y/o el idioma).
+**1. Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y/o el idioma).
 
-2. **Descargar el material del curso**: 
+**2 (opción 1 - inicialmente maś sencilla). Descargar el material del curso de forma manual**. Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
 
-    * Opción 1 (más sencilla): Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
-
-    * Opción 2 (más cómoda cuando avance el curso): Abrir la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; es decir,
-        C:\Users\<TuUsuario>\Documents\MATLAB\
-bla bla   
-        git clone https://github.com/mancolric/METE.git
+**2 (opción 2 - más cómoda cuando avance el curso). Descargar el material del curso desde la terminal**. Abrir la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; es decir, ejecutar
+```
+cd C:\Users\<TuUsuario>\Documents\MATLAB\  
+git clone https://github.com/mancolric/METE.git
+```
 para Windows, o 
 ```
 cd /home/<TuUsuario>/Documentos/MATLAB/
@@ -27,21 +26,21 @@ git clone https://github.com/mancolric/METE.git
 ```
 para Linux y MacOS, donde `<TuUsuario>` debe ser reemplazado por tu nombre de usuario. 
 
-Después del paso 2, debe haber una carpeta `METE` dentro de la carpeta `MATLAB`, que a su vez está en documentos 
+Después del paso 2, debe haber una carpeta `METE` dentro de la carpeta `MATLAB`, que a su vez está ubicada en `Mis documentos` o `~/Documentos/`.
 
-3. **Actualizar el directorio de MATLAB**. Abrir `MATLAB->Home->Preferences->SetPath`, y añadir la carpeta `METE` y sus subcarpetas al directorio de MATLAB. De esta forma, MATLAB podrá encontrar los archivos que hay dentro de `METE`.
+**3. Actualizar el directorio de MATLAB**. Abrir `MATLAB->Home->Preferences->SetPath`, y añadir la carpeta `METE` y sus subcarpetas al directorio de MATLAB. De esta forma, MATLAB podrá encontrar los archivos que hay dentro de `METE`.
 
 ### Recomendaciones importantes
 
 La carpeta `METE` contiene los archivos oficiales del curso, y se irá actualizando progresivamente, según se avance durante el curso.
 
-Si quieres practicar con los ejercicios propuestos, es conveniente guardar los archivos en una carpeta diferente, por ejemplo, `METE_Estudiante`. Esta carpeta puede guardarse dentro de la carpeta `MATLAB`, y debe añadirse también al directorio de MATLAB de forma similar al paso 3 de la instalación.
+Si quieres practicar con los ejercicios propuestos y compararlos con la solución, es conveniente guardar los archivos en una carpeta diferente, por ejemplo, `METE_Estudiante`. Esta carpeta puede guardarse dentro de la carpeta `MATLAB`, y debe añadirse también al directorio de MATLAB de forma similar al paso 3 de la instalación.
 
-Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, "implementar una función llamada `LUSolve`", se recomienda llamar a la función de una forma diferente, por ejemplo, `LUSolve_Estudiante`, para evitar que MATLAB la confunda con la función oficial. 
+Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, "implementar una función llamada `LUSolve`", se recomienda llamar a la función de una forma diferente, por ejemplo, `LUSolve_Estudiante`, para evitar que MATLAB la confunda con la función oficial que implementa la solución al ejercicio. 
 
 ### Actualizaciones 
 
-Será necesario actualizar el material durante el curso. Para ello, hay que ejecutar nuevamente el paso 2A anterior, sobreescribiendo los archivos ya existentes con sus nuevas versiones.
+Será necesario actualizar el material durante el curso. Para ello, hay que ejecutar nuevamente el paso 2 (opción 1) anterior, sobreescribiendo los archivos ya existentes con sus nuevas versiones.
 
 Alternativamente, desde la terminal, simplemente hay que cambiar el directorio a la carpeta `METE` y ejecutar `git pull`, que automáticamente se conecta al repositorio y descarga los nuevos archivos. Es decir,
 ```
