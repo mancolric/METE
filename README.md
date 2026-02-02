@@ -10,11 +10,13 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
 
 ### Instalación
 
-1) **Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y/o el idioma).
+1. **Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y/o el idioma).
 
-2) A) **Descargar el material del curso**. Para ello, puede descargarse una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
+2. **Descargar el material del curso**. 
 
-1) B) Alternativamente, se puede descargar el material del curso desde la línea de comandos, lo cual puede resultar más cómodo posteriormente. Para ello, abrir primero la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; por ejemplo
+    * Opción 1 (más sencilla): Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
+
+    * Opción 2 (más cómoda cuando avance el curso): Abrir la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; es decir,
 ```
 cd C:\Users\<TuUsuario>\Documents\MATLAB\
 git clone https://github.com/mancolric/METE.git
@@ -28,7 +30,7 @@ para Linux y MacOS, donde `<TuUsuario>` debe ser reemplazado por tu nombre de us
 
 Después del paso 2, debe haber una carpeta `METE` dentro de la carpeta `MATLAB`, que a su vez está en documentos 
 
-3) **Actualizar el directorio de MATLAB**. Abrir `MATLAB->Home->Preferences->SetPath`, y añadir la carpeta `METE` y sus subcarpetas al directorio de MATLAB. De esta forma, MATLAB podrá encontrar los archivos que hay dentro de `METE`.
+3. **Actualizar el directorio de MATLAB**. Abrir `MATLAB->Home->Preferences->SetPath`, y añadir la carpeta `METE` y sus subcarpetas al directorio de MATLAB. De esta forma, MATLAB podrá encontrar los archivos que hay dentro de `METE`.
 
 ### Recomendaciones importantes
 
