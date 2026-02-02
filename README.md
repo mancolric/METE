@@ -12,7 +12,7 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
 
 1. **Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y/o el idioma).
 
-2. **Descargar el material del curso**. 
+2. **Descargar el material del curso**: 
 
     * Opción 1 (más sencilla): Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
 
