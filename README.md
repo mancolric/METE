@@ -14,7 +14,7 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
 
 2) A) **Descargar el material del curso**. Para ello, puede descargarse una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
 
- B) Alternativamente, se puede descargar el material del curso desde la línea de comandos, lo cual puede resultar más cómodo posteriormente. Para ello, abrir primero la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; por ejemplo
+2) B) Alternativamente, se puede descargar el material del curso desde la línea de comandos, lo cual puede resultar más cómodo posteriormente. Para ello, abrir primero la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; por ejemplo
 ```
 cd C:\Users\<TuUsuario>\Documents\MATLAB\
 git clone https://github.com/mancolric/METE.git
@@ -42,7 +42,7 @@ Al mismo tiempo, si el enunciado de un ejercicio dice, por ejemplo, "implementar
 
 Será necesario actualizar el material durante el curso. Para ello, hay que ejecutar nuevamente el paso 2A anterior, sobreescribiendo los archivos ya existentes con sus nuevas versiones.
 
-Alternativamente, desde la terminal, simplemente hay que cambiar el directorio a la carpeta `METE` y ejecutar `git pull`, es decir,
+Alternativamente, desde la terminal, simplemente hay que cambiar el directorio a la carpeta `METE` y ejecutar `git pull`, que automáticamente se conecta al repositorio y descarga los nuevos archivos. Es decir,
 ```
 cd C:\Users\<TuUsuario>\Documents\MATLAB\METE\
 git pull
@@ -52,7 +52,7 @@ para Windows, o
 cd /home/<TuUsuario>/Documentos/MATLAB/METE/
 git pull
 ```
-para Linux y MacOS. Notemos que, de esta forma, no es necesario abrir el navegador de internet.
+para Linux y MacOS.
 
 
 ### Citar como 
