@@ -14,7 +14,7 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
 
 2) A) **Descargar el material del curso**. Para ello, puede descargarse una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
 
-2) B) Alternativamente, se puede descargar el material del curso desde la línea de comandos, lo cual puede resultar más cómodo posteriormente. Para ello, abrir primero la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; por ejemplo
+1) B) Alternativamente, se puede descargar el material del curso desde la línea de comandos, lo cual puede resultar más cómodo posteriormente. Para ello, abrir primero la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; por ejemplo
 ```
 cd C:\Users\<TuUsuario>\Documents\MATLAB\
 git clone https://github.com/mancolric/METE.git
