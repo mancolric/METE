@@ -12,9 +12,9 @@ El material se ha desarrollado con la intención de facilitar el estudio de la a
 
 **1. Instalar [MATLAB](https://es.mathworks.com/products/matlab.html)**. Después de la instalación, debe aparecer una carpeta llamada `MATLAB` dentro de la carpeta `Mis documentos` o `~/Documentos/` (la carpeta puede variar según el sistema operativo y/o el idioma).
 
-**2 (opción 1 - inicialmente maś sencilla). Descargar el material del curso de forma manual**. Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
+**2 (opción 1 - inicialmente más sencilla). Descargar el material del curso de forma manual**. Descargar una carpeta comprimida a través de la pestaña `Code->Download ZIP`, y luego extraer el contenido dentro de la carpeta `MATLAB`.
 
-**2 (opción 2 - más cómoda cuando avance el curso). Descargar el material del curso desde la terminal**. Abrir la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; es decir, ejecutar
+**2 (opción 2 - recomendada, más cómoda cuando avance el curso). Descargar el material del curso desde la terminal**. Abrir la terminal, por ejemplo, desde el menú de inicio. A continuación, cambiar el directorio a la carpeta `MATLAB` y clonar el repositorio; es decir, ejecutar
 ```
 cd C:\Users\<TuUsuario>\Documents\MATLAB\  
 git clone https://github.com/mancolric/METE.git
@@ -54,7 +54,7 @@ para Windows, o
 cd /home/<TuUsuario>/Documentos/MATLAB/METE/
 git pull
 ```
-para Linux y MacOS.
+para Linux y MacOS. Se recomienda esta segunda opción.
 
 
 ### Citar como 
