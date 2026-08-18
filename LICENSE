@@ -1,9 +1,39 @@
-====================================================================
-1. SOURCE CODE (MATLAB)
-====================================================================
-The MATLAB source code in this repository is released under the MIT License.
+===============================================================================
+LICENSE AND TERMS OF USE
+===============================================================================
 
-MIT License
+This repository contains both lecture documentation and associated code, 
+which are licensed under different terms:
+
+
+SECTION 1: LECTURE NOTES, DOCUMENTATION AND FIGURES
+-------------------------------------------------------------------------------
+
+The lecture notes and educational documentation are provided under a
+Source-Available Educational License (All Rights Reserved).
+
+PERMITTED ACTIONS:
+- Personal & Professional Study: You may download, view, and print this 
+  material solely for your personal, academic, or professional study.
+- Citation & Reference: You are welcome to reference, quote, or cite this 
+  material in academic, educational, research, or industrial/professional 
+  work (including technical reports and documentation), provided proper 
+  attribution is given to the author.
+
+RESTRICTIONS:
+- NO REDISTRIBUTION: You may not host, upload, re-publish, or distribute 
+  this material (in whole or in part) on any public or private platform, 
+  website, third-party service (e.g., Wuolah, Studocu, Course Hero), or 
+  public repository forks.
+- NO MODIFICATIONS: You may not alter, transform, or build upon this material 
+  for public distribution.
+- NO COMMERCIAL USE: You may not sell, rent, or commercialize this material.
+
+
+SECTION 2: MATLAB CODE AND NUMERICAL IMPLEMENTATIONS
+-------------------------------------------------------------------------------
+
+All MATLAB code, scripts, and algorithms are licensed under the MIT License, WITH AN ADDITIONAL MANDATORY CITATION REQUIREMENT FOR DERIVED AND INTEGRATED WORKS:
 
 Copyright (c) 2026 [Manuel Colera Rico]
 
@@ -11,11 +41,16 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, and to permit persons to whom it is furnished to do so,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. COPYRIGHT NOTICE: The above copyright notice and this permission notice 
+   shall be included in all copies or substantial portions of the Software.
+
+2. MANDATORY CITATION: Any academic paper, technical report, thesis, software 
+   documentation, or commercial product that incorporates, adapts, or relies 
+   upon this Software (in whole or in part) MUST explicitly cite this 
+   repository as the original source, as specified in the CITATION section.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -25,23 +60,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-====================================================================
-2. NOTES AND DOCUMENTATION (LaTeX / PDF)
-====================================================================
-The lecture notes, LaTeX source files, figures, and associated text 
-documentation are licensed under the Creative Commons Attribution 4.0 
-International License (CC BY 4.0).
+SECTION 3: HOW TO CITE
+-------------------------------------------------------------------------------
+Please refer to the "Citar como" section in the README.md file.
 
-You are free to:
-- Share: copy and redistribute the material in any medium or format.
-- Adapt: remix, transform, and build upon the material for any purpose, 
-  even commercially.
-
-Under the following terms:
-- Attribution: You must give appropriate credit, provide a link to the 
-  license, and indicate if changes were made. You may do so in any 
-  reasonable manner, but not in any way that suggests the licensor 
-  endorses you or your use.
-
-Full legal code of the CC BY 4.0 License:
-https://creativecommons.org/licenses/by/4.0/legalcode
